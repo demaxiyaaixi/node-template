@@ -3,7 +3,7 @@ const app = express();
 
 //设置路由
 app.get('/', function (req, res) {
-  res.send('Hello World??!');
+  res.send('Hello World! nodemon!');
 });
 
 //设置端口
